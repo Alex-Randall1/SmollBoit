@@ -21,7 +21,7 @@ client.on('message', (channel, tags, message, self) => {
 
 	if(message.toLowerCase() === '!hello') {
 		// "@username, heya!"
-		client.say(channel, `@${tags.username}, whats up nerd!`);
+		client.say(channel, `@${tags.username}, Hey how is it going?`);
 	}
 
   if(message.toLowerCase() === '!age') {
